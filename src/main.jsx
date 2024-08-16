@@ -14,6 +14,9 @@ import PuppiesProduct from './Components/Product/PuppiesProduct/PuppiesProduct.j
 import OurShop from './Components/OurShop/OurShop.jsx';
 import Appoinment from './Components/Appointment/Appoinment.jsx';
 import AboutMe from './Components/Appointment/AboutMe.jsx';
+import FindPuppy from './Components/FindPuppy/FindPuppy.jsx';
+import FirstCart from './Components/AllCart/FirstCart/FirstCart.jsx';
+import Checkout from './Components/AllCart/Checkout/Checkout.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -37,8 +40,20 @@ const router = createBrowserRouter([
         element: <AboutMe/>,
       },
       {
+        path: "/shoppingCart",
+        element: <FirstCart/>,
+      },
+      {
+        path: "/checkout",
+        element: <Checkout/>,
+      },
+      {
         path: "/ourShop",
         element: <OurShop />,
+      },
+      {
+        path: "/findPuppy2",
+        element: <FindPuppy />,
       },
     
       {

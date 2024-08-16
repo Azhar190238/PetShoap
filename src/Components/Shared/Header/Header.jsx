@@ -2,7 +2,7 @@
 
 
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
   const navLinks = (
@@ -15,7 +15,7 @@ const Header = () => {
           <summary>Pets</summary>
           <ul className="p-2">
             <li><NavLink to='/findPuppy'>Find Puppy</NavLink></li>
-            <li><NavLink to='/pets/submenu2'>Submenu 2</NavLink></li>
+            <li><NavLink to='/findPuppy2'>Find Puppy 2</NavLink></li>
           </ul>
         </details>
       </li>
@@ -71,7 +71,7 @@ const Header = () => {
         </ul>
       </div>
       <div className="navbar-end flex items-center">
-        <a className='mr-6'><img src="/src/assets/image/NavIcon/Cart.png" alt="Cart" /></a>
+        <Link to='/shoppingCart'><img src="/src/assets/image/NavIcon/Cart.png" alt="Cart" /></Link>
         <a className="btn rounded-3xl text-[#C9C3C1] flex items-center">
           <img className='mr-2' src="/src/assets/image/NavIcon/user.png" alt="User" /> <span className='hidden sm:inline'>Login/Register</span>
         </a>
