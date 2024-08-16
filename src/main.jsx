@@ -8,6 +8,12 @@ import {
 } from "react-router-dom";
 import Root from './Root/Root.jsx';
 import HomePage from './Components/Home/HomePage/HomePage.jsx';
+import Product from './Components/Product/Product.jsx';
+import ServicesPupies from './Components/Product/ServicesPupies.jsx';
+import PuppiesProduct from './Components/Product/PuppiesProduct/PuppiesProduct.jsx';
+import OurShop from './Components/OurShop/OurShop.jsx';
+import Appoinment from './Components/Appointment/Appoinment.jsx';
+import AboutMe from './Components/Appointment/AboutMe.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -17,6 +23,31 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <HomePage />,
+      },
+      {
+        path: "/findPuppy",
+        element: <Product />,
+      },
+      {
+        path: "/appointment",
+        element: <Appoinment/>,
+      },
+      {
+        path: "/appointmentMe",
+        element: <AboutMe/>,
+      },
+      {
+        path: "/ourShop",
+        element: <OurShop />,
+      },
+    
+      {
+        path: "/services",
+        element: <ServicesPupies></ServicesPupies>,
+      },
+      {
+        path: "/puppyProducts",
+        element: <PuppiesProduct></PuppiesProduct>,
       },
     ],
   },
