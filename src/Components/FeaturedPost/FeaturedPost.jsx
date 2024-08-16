@@ -14,22 +14,22 @@ const FeaturedPost = () => {
 
       <div className='mt-20 mx-16'>
         <Swiper
-          slidesPerView={4} // number of slides to show at once
+          slidesPerView={4} 
           spaceBetween={30} // space between slides
           navigation={true} // enable navigation buttons
           loop={true} // enable continuous loop mode
           modules={[Navigation]} // include the Navigation module here
 
           breakpoints={{
-            // when window width is >= 1024px
+            
             1024: {
               slidesPerView: 4,
             },
-            // when window width is >= 768px
+           
             768: {
               slidesPerView: 2,
             },
-            // when window width is < 768px
+           
             0: {
               slidesPerView: 1,
             },
@@ -128,7 +128,7 @@ const FeaturedPost = () => {
             </div>
           </SwiperSlide>
 
-          {/* Repeat SwiperSlide for each card */}
+         
           <SwiperSlide>
             <div className='flex flex-col items-center'>
               <div className="relative">
