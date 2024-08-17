@@ -17,6 +17,9 @@ import AboutMe from './Components/Appointment/AboutMe.jsx';
 import FindPuppy from './Components/FindPuppy/FindPuppy.jsx';
 import FirstCart from './Components/AllCart/FirstCart/FirstCart.jsx';
 import Checkout from './Components/AllCart/Checkout/Checkout.jsx';
+import ProcessPayment from './Components/AllCart/ProcessPayment/ProcessPayment.jsx';
+import AnotherPayment from './Components/AllCart/AnotherPayment/AnotherPayment.jsx';
+import PaymentMethod from './Components/AllCart/PaymentMethod/PaymentMethod.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -46,6 +49,18 @@ const router = createBrowserRouter([
       {
         path: "/checkout",
         element: <Checkout/>,
+      },
+      {
+        path: "/process",
+        element: <ProcessPayment/>,
+      },
+      {
+        path: "/anotherProcess",
+        element: <AnotherPayment/>,
+      },
+      {
+        path: "/paymentMethod",
+        element: <PaymentMethod/>,
       },
       {
         path: "/ourShop",

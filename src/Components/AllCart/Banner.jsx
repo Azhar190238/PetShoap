@@ -4,7 +4,7 @@ const Banner = () => {
     return (
         <div className='bg-[#61D5DF] h-60 w-full mb-20 mt-44   flex  justify-between relative'>
             <div className='ml-4  flex flex-col items-center justify-center'>
-            <h1 className='text-[#181818] font-bold text-3xl pl-28'>Shopping / Cart</h1>
+            <h1 className='text-[#181818] font-bold text-xl md:text-3xl pl-8 md:pl-28'>Shopping / Cart</h1>
             <div className='flex space-x-2'>
                 <img src="/src/assets/image/productImage/home.png" alt="" />
                 <p className='mt-3'>Home /<span className='text-[#FF5C2C]'> Shop</span></p>

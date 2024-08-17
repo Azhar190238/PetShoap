@@ -199,7 +199,7 @@ const TableCart = () => {
 
                     <div className="form-control my-10 flex-col space-x-2">
                         <label className="cursor-pointer label">
-                            <input type="checkbox" defaultChecked className="checkbox border-[#FF5C2C] mr-3" />
+                            <input type="checkbox" className="checkbox border-[#FF5C2C] mr-3" />
                             <p className="label-text">By placing your order, you agree with our company privacy policy and <span className='text-[#FF5C2C]'>condition</span> of use.</p>
                         </label>
                     </div>
