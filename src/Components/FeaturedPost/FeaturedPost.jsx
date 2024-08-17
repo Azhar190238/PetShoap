@@ -18,7 +18,7 @@ const FeaturedPost = () => {
           spaceBetween={30} // space between slides
           navigation={true} // enable navigation buttons
           loop={true} // enable continuous loop mode
-          modules={[Navigation]} // include the Navigation module here
+          modules={[Navigation]} 
 
           breakpoints={{
             
