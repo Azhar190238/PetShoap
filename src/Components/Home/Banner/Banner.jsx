@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <div className='flex flex-col lg:flex-row max-w-[1400px] sm:mx-2 mx-auto mb-20 mt-10  gap-8'>
+        <div className='flex flex-col lg:flex-row max-w-[1400px]  mx-auto mb-20 mt-10  gap-8'>
             <div className='flex-1 pl-12 pt-20 space-y-4'>
                 <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold">Established & Trusted Pet <br /> Care Service</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo necessitatibus amet molestiae ratione eaque. Deleniti impedit, mollitia ab</p>

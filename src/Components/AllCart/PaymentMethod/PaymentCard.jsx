@@ -93,7 +93,7 @@ const PaymentCard = () => {
             </div>
 
             <div className='my-10 flex justify-center'>
-                        <button onClick={() => navigate('/anotherProcess')} className="btn btn-wide bg-[#FF5C2C] text-white rounded-3xl text-xl">Complete Order</button>
+                        <button onClick={() => navigate('/completeCard')} className="btn btn-wide bg-[#FF5C2C] text-white rounded-3xl text-xl">Complete Order</button>
                     </div>
   
 

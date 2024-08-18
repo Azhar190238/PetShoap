@@ -23,8 +23,9 @@ const Header = () => {
         <details>
           <summary>Services</summary>
           <ul className="p-2">
-            <li><NavLink to='/services'>Submenu 1</NavLink></li>
-            <li><NavLink to='/services/submenu2'>Submenu 2</NavLink></li>
+            <li><NavLink to='/pussyService'>Pussy Service</NavLink></li>
+            <li><NavLink to='/bathService'>Bath Service</NavLink></li>
+            <li><NavLink to="/trainer">Trainer</NavLink></li>
           </ul>
         </details>
       </li>
@@ -72,9 +73,9 @@ const Header = () => {
       </div>
       <div className="navbar-end flex items-center">
         <Link to='/shoppingCart'><img src="/src/assets/image/NavIcon/Cart.png" alt="Cart" /></Link>
-        <a className="btn rounded-3xl text-[#C9C3C1] flex items-center">
+        <Link to='/register'><a className="btn rounded-3xl text-[#C9C3C1] flex items-center">
           <img className='mr-2' src="/src/assets/image/NavIcon/user.png" alt="User" /> <span className='hidden sm:inline'>Login/Register</span>
-        </a>
+        </a></Link>
         <a className="btn rounded-3xl bg-[#FF5C2C] text-white font-bold  items-center hidden  sm:flex">
           <img className='mr-2' src="/src/assets/image/NavIcon/Utube.png" alt="How it Works" /> How It Works
         </a>

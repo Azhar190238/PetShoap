@@ -2,7 +2,7 @@ import React from 'react';
 
 const ShopPate = () => {
     return (
-        <div className='max-w-[1400px] mx-2 lg:mx-20 mb-20 '>
+        <div className='max-w-[1400px] mx-auto mb-20 '>
             <div className='text-center'>
                 <h1 className='text-bold text-black text-3xl mb-4'>Shop by Peat</h1>
                 <p className='text-[#938683] text-sm'>Designed so animals can relax & indulge in pet stylists, run around our exercise yards, make new <br /> friends in doggy daycare, or simply spend hours in our dog grooming salon.</p>

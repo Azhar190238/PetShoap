@@ -20,6 +20,17 @@ import Checkout from './Components/AllCart/Checkout/Checkout.jsx';
 import ProcessPayment from './Components/AllCart/ProcessPayment/ProcessPayment.jsx';
 import AnotherPayment from './Components/AllCart/AnotherPayment/AnotherPayment.jsx';
 import PaymentMethod from './Components/AllCart/PaymentMethod/PaymentMethod.jsx';
+import CompleteCard from './Components/AllCart/CompleteCard/CompleteCard.jsx';
+import Trainer from './Components/Trainer/Trainer.jsx';
+import PussyService from './Components/PussyService/PussyService.jsx';
+import BathService from './Components/BathService/BathService.jsx';
+import Payment3 from './Components/Payment/Payment3.jsx';
+import Payment2 from './Components/Payment/Payment2.jsx';
+import Payment from './Components/Payment/Payment.jsx';
+import Contact from './Components/Contact/Contact.jsx';
+import Review from './Components/Review/Review.jsx';
+import SingleShop from './Components/singleShop/singleShop.jsx';
+import MyAccount1 from './Components/Authentication/MyAccount/MyAccount1.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -63,6 +74,10 @@ const router = createBrowserRouter([
         element: <PaymentMethod/>,
       },
       {
+        path: "/completeCard",
+        element: <CompleteCard/>,
+      },
+      {
         path: "/ourShop",
         element: <OurShop />,
       },
@@ -79,6 +94,50 @@ const router = createBrowserRouter([
         path: "/puppyProducts",
         element: <PuppiesProduct></PuppiesProduct>,
       },
+      {
+        path: "/pussyService",
+        element: <PussyService></PussyService>
+      },
+      {
+        path: "/bathService",
+        element: <BathService></BathService>
+      },
+      {
+        path: '/trainer',
+        element: <Trainer></Trainer>
+      },
+      {
+        path: "/singleShop",
+        element: <SingleShop></SingleShop>
+      },
+      {
+        path: "/review",
+        element: <Review></Review>
+      },
+      {
+        path: "/payment",
+        element: <Payment></Payment>
+      },
+      {
+        path: "/payment2",
+        element: <Payment2></Payment2>
+      },
+      {
+        path: "/payment3",
+        element: <Payment3></Payment3>
+      },
+      
+      {
+        path: "/contact",
+        element: <Contact></Contact>,
+      },
+
+      //updated after collaboration 
+      {
+        path: "/register",
+        element: <MyAccount1></MyAccount1>,
+      },
+
     ],
   },
 ]);

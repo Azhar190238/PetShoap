@@ -58,15 +58,15 @@ const Footer = () => {
                         <div className='flex flex-col mt-3'>
                             <a className="link link-hover text-[#EBECED] font-thin text-xs">Bully Good Works</a>
                             <a className="link link-hover text-[#EBECED] font-thin text-xs">Newsletter Subscriptions</a>                     <a className="link link-hover text-[#EBECED] font-thin text-xs">Center</a>
-                            <a className="link link-hover text-[#EBECED] font-thin text-xs">Bully Good Works</a>
+                            <a href='/payment' className="link link-hover text-[#EBECED] font-thin text-xs">Payment</a>
                         </div>
                     </div>
                     <div className='mb-10 lg:mb-1 md:mb-5'>
                         <a className='font-bold text-sm' href=""> Polices & Support</a>
                         <div className='flex flex-col mt-3'>
-                            <a className="link link-hover text-[#EBECED] font-thin text-xs">Terms of Use</a>
-                            <a className="link link-hover text-[#EBECED] font-thin text-xs">Privacy Policy</a>
-                            <a className="link link-hover text-[#EBECED] font-thin text-xs">Contact</a>
+                            <a href='/review' className="link link-hover text-[#EBECED] font-thin text-xs">Review</a>
+                            <a href='/singleShop' className="link link-hover text-[#EBECED] font-thin text-xs">Single Shop</a>
+                            <a href='/contact' className="link link-hover text-[#EBECED] font-thin text-xs">Contact</a>
                         </div>
                     </div>
                 </div>

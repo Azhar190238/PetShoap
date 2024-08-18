@@ -6,7 +6,7 @@ const PuppiesCard = () => {
     return (
         <div className='max-w-[1320px] mx-auto mt-10'>
             <div className='flex items-center justify-center space-x-4'>
-                <button onClick={() => navigate('/product')} className="btn  md:btn-wide bg-[#FF5C2C33] text-[#FF5C2C] ">Puppies</button>
+                <button onClick={() => navigate('/findPuppy')} className="btn  md:btn-wide bg-[#FF5C2C33] text-[#FF5C2C] ">Puppies</button>
                 <button
                     onClick={() => navigate('/services')}
                     className="btn md:btn-wide bg-[#FF5C2C33] text-[#FF5C2C]"
