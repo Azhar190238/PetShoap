@@ -95,22 +95,6 @@ const FeaturedPost = () => {
               <h1 className='font-bold text-black text-2xl text-center'>Winter Clothing <br /> for Puppies</h1>
             </div>
           </SwiperSlide>
-
-         
-          <SwiperSlide>
-            <div className='flex flex-col items-center'>
-              <div className="relative mb-4">
-                <div className="bg-[#38C5D9] flex justify-center items-center rounded-full w-[200px] h-[240px]">
-                  <img src="/src/assets/image/Featured/4.png" alt="Puppy 4" className='w-[140px] h-[180px]' />
-                </div>
-                <div className="absolute top-0 left-0 right-0 flex justify-between items-center h-[20px]">
-                  <div className="w-[60px] h-[60px] border-t-4 border-[#38C5D9] rounded-tl-full"></div>
-                  <div className="w-[60px] h-[60px] border-t-4 border-[#38C5D9] rounded-tr-full"></div>
-                </div>
-              </div>
-              <h1 className='font-bold text-black text-2xl text-center'>German Breed <br /> Alsatian Puppies</h1>
-            </div>
-          </SwiperSlide>
           <SwiperSlide>
             <div className='flex flex-col items-center'>
               <div className="relative mb-4">
