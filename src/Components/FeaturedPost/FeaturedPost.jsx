@@ -35,7 +35,7 @@ const FeaturedPost = () => {
             },
           }}
         >
-          {/** Swiper Slide 1 */}
+        
           <SwiperSlide>
             <div className='flex flex-col items-center'>
               <div className="relative mb-4">
@@ -51,7 +51,7 @@ const FeaturedPost = () => {
             </div>
           </SwiperSlide>
 
-          {/** Swiper Slide 2 */}
+        
           <SwiperSlide>
             <div className='flex flex-col items-center'>
               <div className="relative mb-4">
