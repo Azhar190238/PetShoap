@@ -17,10 +17,7 @@ const SignIn = () => {
                     
                 </div>
             </div>
-            {/* <div className=''>  
-          <h1 className='text-2xl font-bold pt-4 text-center '>Save Card:</h1> 
-          <button className=" btn btn-wide bg-[#FF5C2C] text-white rounded-3xl mb-5">Add New Card</button>
-        </div> */}
+   
             <div className=''>
                 <div className='flex-col justify-center  items-center my-4 space-y-4  '>
                     <h1 className='text-xl font-bold'>Create Account</h1>
