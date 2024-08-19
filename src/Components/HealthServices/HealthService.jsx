@@ -2,7 +2,7 @@ import React from 'react';
 
 const HealthService = () => {
     return (
-        <section className='max-w-6xl mx-auto mt-10'>
+        <section className='max-w-6xl mx-auto'>
             <div className='flex justify-center md:justify-end gap-8 font-bold mr-10'>
                 <a className='text-[#61D5DF]' href=""><u>For Dog</u></a>
                 <a href="">For Cat</a>
