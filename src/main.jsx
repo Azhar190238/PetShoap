@@ -31,6 +31,7 @@ import Contact from './Components/Contact/Contact.jsx';
 import Review from './Components/Review/Review.jsx';
 import SingleShop from './Components/singleShop/singleShop.jsx';
 import MyAccount1 from './Components/Authentication/MyAccount/MyAccount1.jsx';
+import SignIn from './Components/Authentication/MyAccount/SignIn.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -136,6 +137,10 @@ const router = createBrowserRouter([
       {
         path: "/register",
         element: <MyAccount1></MyAccount1>,
+      },
+      {
+        path: "/signIn",
+        element: <SignIn></SignIn>,
       },
 
     ],

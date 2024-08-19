@@ -1,10 +1,11 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import Banner from '../../AllCart/Banner';
 
-const AccountForm = () => {
-    const navigate = useNavigate();
+const SignIn = () => {
     return (
-        <div className='max-w-[1050px] mx-auto flex-col justify-center  my-4 col-span-2 '>
+        <div >
+            <Banner></Banner>
+            <div className='max-w-[1050px] mx-auto flex-col justify-center  my-4 col-span-2 '>
             <div className=''>
                 <h1 className='text-3xl font-bold text-center my-8'>My Account</h1>
                 <div className="join flex justify-center  ">
@@ -44,7 +45,9 @@ const AccountForm = () => {
                 <button className=" btn btn-wide bg-[#FF5C2C] text-white rounded-3xl mb-5">Create Account</button>
             </div>
         </div>
+            
+        </div>
     );
 };
 
-export default AccountForm;
+export default SignIn;
