@@ -32,6 +32,10 @@ import Review from './Components/Review/Review.jsx';
 import SingleShop from './Components/singleShop/singleShop.jsx';
 import MyAccount1 from './Components/Authentication/MyAccount/MyAccount1.jsx';
 import SignIn from './Components/Authentication/MyAccount/SignIn.jsx';
+import ForgetPassword from './Components/Authentication/MyAccount/ForgetPassword.jsx';
+import ResetPassword from './Components/Authentication/MyAccount/ResetPassword.jsx';
+import ResetAgainPassword from './Components/Authentication/MyAccount/ResetAgainPassword.jsx';
+import Verified from './Components/Authentication/MyAccount/Verified.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -141,6 +145,22 @@ const router = createBrowserRouter([
       {
         path: "/signIn",
         element: <SignIn></SignIn>,
+      },
+      {
+        path: "/forget",
+        element: <ForgetPassword></ForgetPassword>,
+      },
+      {
+        path: "/reset",
+        element: <ResetPassword></ResetPassword>,
+      },
+      {
+        path: "/resetAgain",
+        element: <ResetAgainPassword></ResetAgainPassword>,
+      },
+      {
+        path: "/verified",
+        element: <Verified></Verified>,
       },
 
     ],
