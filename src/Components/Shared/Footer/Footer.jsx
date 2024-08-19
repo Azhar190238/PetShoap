@@ -41,7 +41,7 @@ const Footer = () => {
 
                             <a className="link link-hover text-[#EBECED] font-thin text-xs">Find Puppy</a>
                             <a className="link link-hover text-[#EBECED] font-thin text-xs">Find Groomer</a>
-                            <a className="link link-hover text-[#EBECED] font-thin text-xs">Find Trainer</a>
+                            <a href='/findTrainer' className="link link-hover text-[#EBECED] font-thin text-xs">Find Trainer</a>
                         </div>
                     </div>
                     <div className='mb-10 lg:mb-1 md:mb-5'>

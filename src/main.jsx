@@ -36,6 +36,7 @@ import ForgetPassword from './Components/Authentication/MyAccount/ForgetPassword
 import ResetPassword from './Components/Authentication/MyAccount/ResetPassword.jsx';
 import ResetAgainPassword from './Components/Authentication/MyAccount/ResetAgainPassword.jsx';
 import Verified from './Components/Authentication/MyAccount/Verified.jsx';
+import ManageMyAccount from './Components/FindTrainer/ManageMyAccount.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -161,6 +162,12 @@ const router = createBrowserRouter([
       {
         path: "/verified",
         element: <Verified></Verified>,
+      },
+
+      //find trainer
+      {
+        path: "/findTrainer",
+        element: <ManageMyAccount></ManageMyAccount>,
       },
 
     ],
