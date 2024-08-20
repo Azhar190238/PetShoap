@@ -38,6 +38,8 @@ import ResetAgainPassword from './Components/Authentication/MyAccount/ResetAgain
 import Verified from './Components/Authentication/MyAccount/Verified.jsx';
 import ManageMyAccount from './Components/FindTrainer/ManageMyAccount.jsx';
 import EditPersonal from './Components/FindTrainer/EditPersonal.jsx';
+import DashboardServices from './Components/DashbordServices/DashboardServices.jsx';
+import AddNewForm from './Components/DashbordServices/AddNewForm.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -174,7 +176,16 @@ const router = createBrowserRouter([
         path: "/editPersonal",
         element: <EditPersonal></EditPersonal>,
       },
+      //dashbord servics
 
+      {
+        path: "/dashbordServices",
+        element: <DashboardServices></DashboardServices>,
+      },
+      {
+        path: "/addNewForm",
+        element: <AddNewForm></AddNewForm>,
+      },
     ],
   },
 ]);

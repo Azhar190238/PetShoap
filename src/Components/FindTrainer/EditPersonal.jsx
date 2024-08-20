@@ -38,6 +38,19 @@ const items = [
                         <input type="text" placeholder="Display Name *" className="input input-bordered input-error w-full max-w-xs" />
                     </div>
                 </div>
+                
+                <div className='flex gap-20 my-10'>
+                    <div>
+                        <h1 className='text-xl font-semibold'>Profile Picture*</h1>
+                    </div>
+                    <div className='flex space-x-8'>
+
+                        <div className='relative ml-10'>
+                            <img src="/src/assets/image/EditProfile/Ellipse 2911.png" alt="" />
+                            <img src="/src/assets/image/EditProfile/Icon (2).png" alt="" className='absolute top-12 left-24' />
+                        </div>
+                    </div>
+                </div>
                 <div className='flex  gap-36 my-10'>
                     <div>
                         <h1 className='text-xl font-semibold'>About*</h1>
@@ -50,57 +63,115 @@ const items = [
 
                 </div>
 
-                <div className='flex gap-20 my-10'>
+                <div className='flex gap-28 my-10'>
                     <div>
                         <h1 className='text-xl font-semibold'>Language*</h1>
                     </div>
                     <div className='flex space-x-8'>
 
-                        <Select
-                            showSearch
-                            style={{
-                                width: 200,
-                            }}
-                            placeholder="Search to Select"
-                            optionFilterProp="label"
-                            filterSort={(optionA, optionB) =>
-                                (optionA?.label ?? '').toLowerCase().localeCompare((optionB?.label ?? '').toLowerCase())
-                            }
-                            options={[
-                                {
-                                    value: '1',
-                                    label: 'Not Identified',
-                                },
-                                {
-                                    value: '2',
-                                    label: 'Closed',
-                                },
-                                {
-                                    value: '3',
-                                    label: 'Communicated',
-                                },
-                                {
-                                    value: '4',
-                                    label: 'Identified',
-                                },
-                                {
-                                    value: '5',
-                                    label: 'Resolved',
-                                },
-                                {
-                                    value: '6',
-                                    label: 'Cancelled',
-                                },
-                            ]}
-                        />
+                        <select className="select select-error w-full md:w-[300px]  border-[#FFA58A]">
+                            <option disabled selected>Language</option>
+                            <option>Strapi</option>
+                            <option>Ghost</option>
+                            <option>Netlify CMS</option>
+                            <option>Sanity</option>
+                        </select>
+                        <select className="select select-error  w-full md:w-[300px]  border-[#FFA58A]">
+                            <option disabled selected>Level</option>
+                            <option>Strapi</option>
+                            <option>Ghost</option>
+                            <option>Netlify CMS</option>
+                            <option>Sanity</option>
+                        </select>
+                        <button className='btn bg-[#FFA58A] text-white rounded-2xl'>Add</button>
                     </div>
+
                 </div>
+                <div className='flex justify-end'>
+                        <button className='btn btn-wide bg-[#FF5C2C] text-white rounded-3xl'>Continue</button>
+                    </div>
             </div>,
     },
     {
         key: '2',
         label: <p className='text-red-500 border-2 text-xl'>Professional Information</p>,
-        children: 'Content of Tab Pane 2',
+        children: 
+        <div className='my-10'>
+        <p className='py-4'>
+        This is your shine. Let potential buyers know what you do to best and <br /> how you gained your experience.  
+        </p>
+        <div>
+        <div className='flex gap-20 my-10'>
+            <div>
+                <h1 className='text-xl font-semibold'>Occupation  *</h1>
+            </div>
+            <div className='flex space-x-8'>
+
+                <select className="select select-error w-full md:w-[300px]  border-[#FFA58A]">
+                    <option disabled selected>Select Occupation</option>
+                    <option>Strapi</option>
+                    <option>Ghost</option>
+                    <option>Netlify CMS</option>
+                    <option>Sanity</option>
+                </select>
+                <button className='btn px-6 bg-[#FFA58A] text-white rounded-2xl'>Add</button>
+            </div>
+
+        </div>
+        <div className='flex gap-28 my-10'>
+            <div>
+                <h1 className='text-xl font-semibold'>Services *</h1>
+            </div>
+            <div className='flex space-x-8'>
+
+                <select className="select select-error w-full md:w-[300px]  border-[#FFA58A]">
+                    <option disabled selected>Select Service</option>
+                    <option>Strapi</option>
+                    <option>Ghost</option>
+                    <option>Netlify CMS</option>
+                    <option>Sanity</option>
+                </select>
+                <select className="select select-error  w-full md:w-[300px]  border-[#FFA58A]">
+                    <option disabled selected>Experience Level</option>
+                    <option>Strapi</option>
+                    <option>Ghost</option>
+                    <option>Netlify CMS</option>
+                    <option>Sanity</option>
+                </select>
+                <button className='btn px-6 bg-[#FFA58A] text-white rounded-2xl'>Add</button>
+            </div>
+
+        </div>
+            <div className='flex gap-28 my-10'>
+                <div>
+                    <h1 className='text-xl font-semibold'>Location *</h1>
+                </div>
+                <div className='flex space-x-8'>
+
+                    <input type="text" placeholder="Add your location" className="input input-bordered input-error w-full" />
+                    <button className='btn px-6 bg-[#FFA58A] text-white rounded-2xl'>Add</button>
+                </div>
+                
+
+            </div>
+            <div className='flex gap-32 my-10'>
+                <div>
+                    <h1 className='text-xl font-semibold'>Phone *</h1>
+                </div>
+                <div className='flex space-x-8'>
+
+                    <input type="text" placeholder="+1 235 6456 326" className="input input-bordered input-error w-full" />
+                    <button className='btn px-6 bg-[#FFA58A] text-white rounded-2xl'>Add</button>
+                </div>
+                
+
+            </div>
+       
+        <div className='flex justify-end'>
+                <button className='btn btn-wide bg-[#FF5C2C] text-white rounded-3xl'>Continue & Create your Service</button>
+            </div>
+            </div>
+    </div>,
     },
 
 ];
