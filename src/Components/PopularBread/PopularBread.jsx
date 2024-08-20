@@ -1,9 +1,16 @@
-import React from 'react';
+
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
+
 import './style.css';
+
+// import required modules
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 
 const PopularBread = () => {
@@ -19,40 +26,41 @@ const PopularBread = () => {
                 centeredSlides={true}
                 slidesPerView={'auto'}
                 coverflowEffect={{
-                    rotate: 0,
+                    rotate: 50,
                     stretch: 0,
-                    depth: 0,
+                    depth: 100,
                     modifier: 1,
-                    slideShadows: false,
+                    slideShadows: true,
                 }}
                 pagination={true}
                 modules={[EffectCoverflow, Pagination]}
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <img src="/src/assets/image/PopularBreads/middle.png" alt="Breed 1" />
+                    <img className='' src="/src/assets/image/PopularBreads/middle.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/src/assets/image/PopularBreads/middle.png" alt="Breed 2" />
+                    <img className='' src="/src/assets/image/PopularBreads/middle.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/src/assets/image/PopularBreads/middle.png" alt="Breed 3" />
+                    <img className='' src="/src/assets/image/PopularBreads/middle.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/src/assets/image/PopularBreads/middle.png" alt="Breed 4" />
+                    <img className='' src="/src/assets/image/PopularBreads/middle.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/src/assets/image/PopularBreads/middle.png" alt="Breed 5" />
+                    <img className='' src="/src/assets/image/PopularBreads/middle.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/src/assets/image/PopularBreads/middle.png" alt="Breed 6" />
+                    <img className='' src="/src/assets/image/PopularBreads/middle.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/src/assets/image/PopularBreads/middle.png" alt="Breed 7" />
+                    <img className='' src="/src/assets/image/PopularBreads/middle.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/src/assets/image/PopularBreads/middle.png" alt="Breed 8" />
+                    <img className='' src="/src/assets/image/PopularBreads/middle.png" />
                 </SwiperSlide>
+
             </Swiper>
         </section>
     );
