@@ -1,7 +1,9 @@
 import React from 'react';
 import Banner from '../AllCart/Banner';
+import { useNavigate } from 'react-router-dom';
 
 const ManageMyAccount = () => {
+    const navigate = useNavigate();
     return (
         <div>
             <Banner></Banner>
@@ -43,7 +45,7 @@ const ManageMyAccount = () => {
                     <div className='col-span-3'>
                         <div className='flex justify-between'>
                             <button className="btn btn-outline  border-red-400 text-red-400 rounded-3xl text-xl">Online</button>
-                            <button className="btn btn-outline border-red-400 text-red-400 rounded-3xl text-xl">Edit Profile</button>
+                            <button onClick={()=> navigate('/editPersonal')} className="btn btn-outline border-red-400 text-red-400 rounded-3xl text-xl">Edit Profile</button>
                         </div>
                         <div className='my-10 flex mx-auto justify-center items-center space-x-16 '>
 

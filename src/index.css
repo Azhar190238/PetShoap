@@ -6,3 +6,7 @@
   max-width: 1320px;
   margin: auto;
 }
+.ant-tabs .ant-tabs-ink-bar {
+  background:  red!important;
+  
+}
