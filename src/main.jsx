@@ -40,6 +40,7 @@ import ManageMyAccount from './Components/FindTrainer/ManageMyAccount.jsx';
 import EditPersonal from './Components/FindTrainer/EditPersonal.jsx';
 import DashboardServices from './Components/DashbordServices/DashboardServices.jsx';
 import AddNewForm from './Components/DashbordServices/AddNewForm.jsx';
+import DashboardReviews from './Components/DashBoardReviews/DashboardReviews.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -185,6 +186,10 @@ const router = createBrowserRouter([
       {
         path: "/addNewForm",
         element: <AddNewForm></AddNewForm>,
+      },
+      {
+        path: "/dashbordReview",
+        element: <DashboardReviews></DashboardReviews>,
       },
     ],
   },

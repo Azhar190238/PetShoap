@@ -11,7 +11,7 @@ const ManageMyAccount = () => {
                 <div className=' grid grid-cols-1 md:grid-cols-4'>
                     <div className='flex flex-col space-y-10 mb-10'>
                         <h1 className='text-3xl font-bold  my-8'>Dashbord</h1>
-                        <a href="">
+                        <a href="/dashbord">
                             <div className='flex space-x-2 '>
                                 <img src="/src/assets/image/FindTrainer/profile.png" alt="" className='w-7 h-7' />
                                 <h1 className='text-xl font-bold text-red-400 '>Profile</h1>
@@ -34,7 +34,7 @@ const ManageMyAccount = () => {
                                 <h1 className='text-xl font-bold  '>Products</h1>
                             </div>
                         </a>
-                        <a href="">
+                        <a href="/dashbordReview">
                             <div className='flex space-x-2 '>
                                 <img src="/src/assets/image/FindTrainer/star.png" alt="" className='w-7 h-7' />
                                 <h1 className='text-xl font-bold '>Reviews</h1>

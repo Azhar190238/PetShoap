@@ -34,7 +34,7 @@ const DashboardServices = () => {
                                 <h1 className='text-xl font-bold  '>Products</h1>
                             </div>
                         </a>
-                        <a href="">
+                        <a href="/dashbordReview">
                             <div className='flex space-x-2 '>
                                 <img src="/src/assets/image/FindTrainer/star.png" alt="" className='w-7 h-7' />
                                 <h1 className='text-xl font-bold '>Reviews</h1>
