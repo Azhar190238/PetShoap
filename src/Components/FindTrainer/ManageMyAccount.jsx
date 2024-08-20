@@ -14,7 +14,7 @@ const ManageMyAccount = () => {
                         <a href="/dashbord">
                             <div className='flex space-x-2 '>
                                 <img src="/src/assets/image/FindTrainer/profile.png" alt="" className='w-7 h-7' />
-                                <h1 className='text-xl font-bold text-red-400 '>Profile</h1>
+                                <h1 className='text-xl font-bold  '>Profile</h1>
                             </div></a>
                         <a href="">
                             <div className='flex space-x-2 '>
@@ -28,10 +28,10 @@ const ManageMyAccount = () => {
                                 <h1 className='text-xl font-bold  '>Services</h1>
                             </div>
                         </a>
-                        <a href="">
+                        <a href="/findPuppy1">
                             <div className='flex space-x-2 '>
                                 <img src="/src/assets/image/FindTrainer/shopping-cart.png" alt="" className='w-7 h-7' />
-                                <h1 className='text-xl font-bold  '>Products</h1>
+                                <h1 className='text-xl font-bold text-red-400 '>Products</h1>
                             </div>
                         </a>
                         <a href="/dashbordReview">

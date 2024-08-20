@@ -41,6 +41,25 @@ import EditPersonal from './Components/FindTrainer/EditPersonal.jsx';
 import DashboardServices from './Components/DashbordServices/DashboardServices.jsx';
 import AddNewForm from './Components/DashbordServices/AddNewForm.jsx';
 import DashboardReviews from './Components/DashBoardReviews/DashboardReviews.jsx';
+import ManageAccount1 from './Components/MyAccount/ManageAccount1.jsx'
+// import ManageAccount1 from './Components/MyAccount/ManageAccount1.jsx';
+import MyProfile from './Components/MyAccount/MyProfile.jsx';
+import AddressBook from './Components/MyAccount/AddressBook.jsx';
+import MyPaymentOption from './Components/MyAccount/MyPaymentOption.jsx';
+import MyReturn from './Components/MyAccount/MyReturn.jsx';
+import MyCancelation from './Components/MyAccount/MyCanceletion.jsx';
+import MyReview from './Components/MyAccount/MyReview.jsx';
+import Vouchers from './Components/MyAccount/Vouchchers.jsx';
+import FindPuppy1 from './Components/DashboardPuppys/FindPuppy1.jsx';
+// import FindPuppy1 from './Components/D'
+import AddPuppy from './Components/DashboardPuppys/AddPyppy.jsx';
+import PuppyService from './Components/DashboardPuppys/PuppyService.jsx';
+import Overview1 from './Components/DashboardPuppys/Overview1.jsx';
+import OverView2 from './Components/DashboardPuppys/OverView2.jsx';
+import OverView3 from './Components/DashboardPuppys/OverView3.jsx';
+import OverView4 from './Components/DashboardPuppys/OverView4.jsx';
+import OverView5 from './Components/DashboardPuppys/OverView5.jsx';
+// import FindPuppy1 from './Components/DashboardPuppys/FindPuppy1.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -57,35 +76,35 @@ const router = createBrowserRouter([
       },
       {
         path: "/appointment",
-        element: <Appoinment/>,
+        element: <Appoinment />,
       },
       {
         path: "/appointmentMe",
-        element: <AboutMe/>,
+        element: <AboutMe />,
       },
       {
         path: "/shoppingCart",
-        element: <FirstCart/>,
+        element: <FirstCart />,
       },
       {
         path: "/checkout",
-        element: <Checkout/>,
+        element: <Checkout />,
       },
       {
         path: "/process",
-        element: <ProcessPayment/>,
+        element: <ProcessPayment />,
       },
       {
         path: "/anotherProcess",
-        element: <AnotherPayment/>,
+        element: <AnotherPayment />,
       },
       {
         path: "/paymentMethod",
-        element: <PaymentMethod/>,
+        element: <PaymentMethod />,
       },
       {
         path: "/completeCard",
-        element: <CompleteCard/>,
+        element: <CompleteCard />,
       },
       {
         path: "/ourShop",
@@ -95,7 +114,7 @@ const router = createBrowserRouter([
         path: "/findPuppy2",
         element: <FindPuppy />,
       },
-    
+
       {
         path: "/services",
         element: <ServicesPupies></ServicesPupies>,
@@ -136,7 +155,7 @@ const router = createBrowserRouter([
         path: "/payment3",
         element: <Payment3></Payment3>
       },
-      
+
       {
         path: "/contact",
         element: <Contact></Contact>,
@@ -191,12 +210,80 @@ const router = createBrowserRouter([
         path: "/dashbordReview",
         element: <DashboardReviews></DashboardReviews>,
       },
+      {
+        path: "/manageAccount1",
+        element: <ManageAccount1></ManageAccount1>
+      },
+      {
+        path: "/myProfile",
+        element: <MyProfile></MyProfile>
+      },
+      {
+        path: "/addressBook",
+        element: <AddressBook></AddressBook>
+      },
+      {
+        path: "/myPaymentOption",
+        element: <MyPaymentOption></MyPaymentOption>
+      },
+      {
+        path: "/myReturn",
+        element: <MyReturn></MyReturn>
+      },
+      {
+        path: "/myCancelation",
+        element: <MyCancelation></MyCancelation>
+      },
+      {
+        path: "/myReview",
+        element: <MyReview></MyReview>
+      },
+      {
+        path: "/vouchers",
+        element: <Vouchers></Vouchers>
+      },
+      {
+        path: "/findPuppy1",
+        element: <FindPuppy1></FindPuppy1>
+      },
+      {
+        path: "/addPuppy",
+        element: <AddPuppy></AddPuppy>
+      },
+      {
+        path: "/ServicePuppyDashboard",
+        element: <PuppyService></PuppyService>
+      },
+      {
+        path: "/overView1",
+        element: <Overview1></Overview1>
+      },
+      {
+        path: "/overView2",
+        element: <OverView2></OverView2>
+      },
+      {
+        path: "/overView3",
+        element: <OverView3></OverView3>
+      },
+      {
+        path: "/overView4",
+        element: <OverView4></OverView4>
+      },
+      {
+        path: "/overView5",
+        element: <OverView5></OverView5>
+      },
+
+
+
+
     ],
   },
 ]);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-     <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </StrictMode>,
 )

@@ -7,22 +7,12 @@ import callIcon from '../../assets/image/payment/Call btn.png'
 import file from '../../assets/image/payment/file.png'
 import camera from '../../assets/image/payment/camera.png'
 import aero from '../../assets/image/payment/Arrow - Right 2.png'
+import Banner from '../AllCart/Banner';
 
 const Payment3 = () => {
     return (
         <section>
-            <div className='bg-[#61D5DF] h-60 w-full mb-20 mt-56 flex justify-between relative'>
-                <div className='ml-4 md:ml-20 flex flex-col justify-center'>
-                    <h1 className='text-[#181818] font-bold text-3xl '>Chat</h1>
-                    <div className='flex space-x-2'>
-                        <img src={homeIcon} alt="" />
-                        <p className='mt-3'>Home /<span className='text-[#FF5C2C]'> Shop</span></p>
-                    </div>
-                </div>
-                <div className='absolute right-0 bottom-0'>
-                    <img src={pussyBanner} alt="" className='w-64 md:w-full' />
-                </div>
-            </div>
+        <Banner></Banner>
 
             <div className='max-w-[1320px] mx-auto'>
                 <div className='grid grid-cols-1 md:grid-cols-3 bg-[#FFFFFF] shadow shadow-[#0000004D] rounded-xl p-4 mt-32 gap-16 mb-10'>
