@@ -192,7 +192,7 @@ const router = createBrowserRouter([
         path: "/editPersonal",
         element: <EditPersonal></EditPersonal>,
       },
-      //dashbord servics
+    
 
       {
         path: "/dashbordServices",
