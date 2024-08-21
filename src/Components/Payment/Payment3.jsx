@@ -88,7 +88,7 @@ const Payment3 = () => {
                             </div>
                         </div>
                         <div className='w-full px-8'>
-                            {/* <input className='w-full input input-bordered border-[#FF5C2C]' type="text" placeholder='Write Your message'/> */}
+                           
                             <label className="input input-bordered border-[#FF5C2C] flex items-center justify-between ">
                                 <input type="text" className="grow" placeholder="Write Your message" />
                                 <div className='flex items-center gap-4'>
