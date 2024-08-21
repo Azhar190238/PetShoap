@@ -40,7 +40,6 @@ import DashboardServices from './Components/DashbordServices/DashboardServices.j
 import AddNewForm from './Components/DashbordServices/AddNewForm.jsx';
 import DashboardReviews from './Components/DashBoardReviews/DashboardReviews.jsx';
 import ManageAccount1 from './Components/MyAccount/ManageAccount1.jsx'
-// import ManageAccount1 from './Components/MyAccount/ManageAccount1.jsx';
 import MyProfile from './Components/MyAccount/MyProfile.jsx';
 import AddressBook from './Components/MyAccount/AddressBook.jsx';
 import MyPaymentOption from './Components/MyAccount/MyPaymentOption.jsx';
