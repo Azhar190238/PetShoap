@@ -13,7 +13,6 @@ body {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
-  /* border: 2px solid red; */
   opacity: 1!important ;
 }
 
@@ -22,7 +21,6 @@ body {
   background-size: cover;
   width: 300px;
   height: 300px;
-  /* border: 2px solid green; */
   opacity:  1!important;
 }
 
