@@ -47,10 +47,10 @@ const FeaturedService = () => {
                     </div>
                 </div>
                 <div className='relative w-full justify-center lg:justify-end'>
-                    <div className='md:absolute mt-16 md:mt-0 md:bottom-0 left-4 rounded-md max-w-[470px] md:w-4/5 h-[335px] bg-[#F9A6AC]'>
+                    <div className='md:absolute mt-16 md:mt-0 md:bottom-0 left-4 rounded-md   md:w-4/5 h-[335px] bg-[#F9A6AC]'>
                         <br />
                     </div>
-                    <img className='absolute right-0 md:right-20 bottom-0 ml-0 md:ml-4 lg:ml-32 w-3/4' src="/src/assets/image/FeatuedService/girl.png" alt="" />
+                    <img className='absolute right-0 md:right-20 bottom-0 ml-0 md:ml-4 lg:ml-32 w-1/2 md:w-3/4' src="/src/assets/image/FeatuedService/girl.png" alt="" />
                     <div className='absolute -top-12 md:top-0 left-o md:-left-20 rounded-md w-[150px] h-[160px] bg-[#7EC1F7] text-white font-bold text-center p-3'>
                         <span className='text-center font-extrabold text-3xl'> 50+ </span> <br /> <br />
                         <span className='text-2xl'>Services</span> <br /> <br />

@@ -15,19 +15,19 @@ const PerfectService = () => {
                 navigation={true}
                 loop={true}
                 modules={[Navigation]}
-                // className='!h-[400px] !w-full'
+                className='!h-[800px] md:!h-[400px] !w-full'
             >
                 {
                     [1, 2, 3, 4, 5, 6].map(index => (
-                        <SwiperSlide className=' px-20'>
-                            <div className='flex flex-col lg:flex-row space-x-40 w-full '>
+                        <SwiperSlide className='  px-20'>
+                            <div className='flex flex-col lg:flex-row space-x-4 md:space-x-20 lg:space-x-40 w-full '>
                                 <div className='flex flex-col items-center '>
                                     <div className='flex'>
                                         <div className='bg-[#38C5D9] rounded-full '>
                                             <img
                                                 src="/src/assets/image/LookingFor/3.png"
                                                 alt="Puppy 2"
-                                                className='!w-[400px] !h-full pb-3 pr-12 '
+                                                className='!max-w-[400px] !h-full pb-3 pr-12 '
                                             />
                                         </div>
                                     </div>

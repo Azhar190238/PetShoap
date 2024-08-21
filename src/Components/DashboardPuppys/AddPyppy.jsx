@@ -95,7 +95,7 @@ const AddPuppy = () => {
             <div>
                 <Banner></Banner>
             </div>
-            <div className='max-w-[1320px] bg-[#FF5C2C1A] rounded-lg p-4 mt-40 mb-10'>
+            <div className='max-w-[1320px] mx-auto bg-[#FF5C2C1A] rounded-lg p-4 mt-40 mb-10'>
                 <div className='mt-5'>
                     <input className='border w-2/3 border-[#FF5C2C] p-3 rounded-lg bg-[#FF5C2C1A]' type="text" placeholder='Brand Name' />
                 </div>

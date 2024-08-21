@@ -70,7 +70,7 @@ const Header = () => {
       <li>
         <NavLink to='/ourShop'>Products</NavLink>
       </li>
-      <li className='outline outline-[#FF5C2C] outline-1 rounded-sm'>
+      <li className='outline outline-[#FF5C2C] outline-1 rounded-sm ml-3'>
         <NavLink to='/appointment'><span className='text-[#FF5C2C]'>Become a seller</span></NavLink>
       </li>
     </>
@@ -110,15 +110,15 @@ const Header = () => {
         </ul>
       </div>
       <div className="navbar-end flex items-center">
-        <Link to='/shoppingCart'><img src="/src/assets/image/NavIcon/Cart.png" alt="Cart" /></Link>
+        <Link to='/shoppingCart'><img src="/src/assets/image/NavIcon/Cart.png" alt="Cart" className='mr-4' /></Link>
         <Link to='/register'><a className="btn rounded-3xl text-[#C9C3C1] flex items-center">
           <img className='mr-2' src="/src/assets/image/NavIcon/user.png" alt="User" /> <span className='hidden sm:inline'>Login/Register</span>
         </a></Link>
   
-        <a className=" p-3 rounded-3xl bg-[#FF5C2C] text-white font-bold  items-center hidden  sm:flex">
+        <a className=" p-3 rounded-3xl  ml-4 bg-[#FF5C2C] text-white font-bold  items-center hidden  sm:flex">
           <img className='mr-2' src="/src/assets/image/NavIcon/Utube.png    " alt="How it Works" />
           <div className="dropdown dropdown-end">
-            <div tabIndex={0} role="button" className=" m-1 rounded-3xl bg-[#FF5C2C] text-white font-bold">How it works</div>
+            <div tabIndex={0} role="button" className=" m-1 rounded-3xl bg-[#FF5C2C] text-white font-bold ">How it works</div>
             <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
               <li className='text-black'>
                 <a href='/manageAccount1' className='flex'>
