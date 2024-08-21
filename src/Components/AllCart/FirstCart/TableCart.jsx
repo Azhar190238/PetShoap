@@ -23,7 +23,7 @@ const TableCart = () => {
                         <h1 className='text-lg md:text-2xl font-bold'>Constitute Buying </h1>
                     </div>
                     <table className="table">
-                        {/* head */}
+                       
                         <thead>
                             <tr>
                                 <th></th>
@@ -35,7 +35,7 @@ const TableCart = () => {
                             </tr>
                         </thead>
                         <tbody>
-                            {/* row 1 */}
+                           
                             <tr>
                                 <td>
                                     <div className="flex items-center gap-1 md:gap-3">
