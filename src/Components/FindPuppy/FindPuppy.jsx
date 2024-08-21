@@ -1,7 +1,6 @@
 import React from 'react';
 import Banner from '../Product/Banner';
 import AboutPuppy from './AboutPuppy';
-import DescriptionPuppy from './DescriptionPuppy';
 import ExploreBreads from './ExploreBreads';
 
 const FindPuppy = () => {
