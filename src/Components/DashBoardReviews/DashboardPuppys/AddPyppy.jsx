@@ -184,7 +184,7 @@ const AddPuppy = () => {
                                 className='!h-[30px] !w-[30px]'
                               
                             
-                                // }}
+                            
                                 preview={{
                                     visible: previewOpen,
                                     onVisibleChange: (visible) => setPreviewOpen(visible),
