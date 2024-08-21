@@ -37,7 +37,7 @@ const Review = () => {
 
                         <Swiper
                            
-                            //     '--swiper-navigation-color': '#fff',
+                          ,
                             //     '--swiper-pagination-color': '#fff',
                             // }}
                             spaceBetween={2}
