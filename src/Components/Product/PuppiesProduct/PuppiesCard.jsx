@@ -348,7 +348,7 @@ const PuppiesCard = () => {
                         
         
                         
-                        {/* <div></div> */}
+                        
                     </div>
                 </div>
             </div>
