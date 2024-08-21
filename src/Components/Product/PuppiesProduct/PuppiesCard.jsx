@@ -23,7 +23,7 @@ const PuppiesCard = () => {
                     </div>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 '>
 
-                        {/* <div> */}
+                      
                         <div className='flex flex-col items-center shadow-xl mb-4'>
                             <div className='bg-[#FE8E68] flex justify-center items-center w-[420px] h-[320px] rounded-xl  '>
                                 <img src="/src/assets/image/Products/1.png" alt="Puppy 2" className='' />
