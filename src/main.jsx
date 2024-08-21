@@ -157,7 +157,7 @@ const router = createBrowserRouter([
         element: <Contact></Contact>,
       },
 
-      //updated after collaboration 
+     
       {
         path: "/register",
         element: <MyAccount1></MyAccount1>,
