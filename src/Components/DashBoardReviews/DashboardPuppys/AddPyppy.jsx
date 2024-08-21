@@ -182,7 +182,7 @@ const AddPuppy = () => {
                             <Image
                                 width={500}
                                 className='!h-[30px] !w-[30px]'
-                                // wrapperStyle={{
+                              
                                 //     display: 'none',
                                 // }}
                                 preview={{
