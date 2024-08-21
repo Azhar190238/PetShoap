@@ -31,7 +31,7 @@ const MyReturn = () => {
                         <h4 className='font-bold text-xl mb-3'>My Returns</h4>
                             <div className="overflow-x-auto">
                                 <table className="table">
-                                    {/* head */}
+                                   
                                     <thead className='bg-[#FF5C2C33] font-bold rounded-3xl'>
                                         <tr className=''>
                                             <th>#Order</th>
