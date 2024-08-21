@@ -57,7 +57,7 @@ const MyProfile = () => {
                                     <p className='mt-2 text-[#9da6b1] font-bold'>Male</p>
                                 </div>
                             </div>
-                            {/* <div className="divider lg:divider-horizontal py-8"></div> */}
+                            
                             <div className='flex-1 rounded-lg p-4'>
                                 <div className='mt-8'>
                                     <h4 className='font-bold'>Phone Number | <span className='text-[#FF5C2C]'>Change</span></h4>
