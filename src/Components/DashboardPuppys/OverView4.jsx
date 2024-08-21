@@ -7,7 +7,7 @@ const OverView4 = () => {
 
     const editorRef = useRef(null);
 
-    // Function to format the text based on command
+    
     const formatText = (command) => {
         if (editorRef.current) {
             editorRef.current.focus();
