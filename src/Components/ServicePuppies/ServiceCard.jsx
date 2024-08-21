@@ -53,7 +53,7 @@ const ServiceCard = () => {
                                 <p>664522 Spring Creek Montrose, <br />
                                     CO 8542</p>
                             </div>
-                            {/*           </div> */}
+                           
                         </div>
                         <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                             <figure className='relative'>
