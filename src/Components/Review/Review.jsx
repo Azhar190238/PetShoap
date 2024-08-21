@@ -37,9 +37,7 @@ const Review = () => {
 
                         <Swiper
                            
-                          ,
-                            //     '--swiper-pagination-color': '#fff',
-                            // }}
+                       
                             spaceBetween={2}
                             navigation={true}
                             thumbs={{ swiper: thumbsSwiper }}
