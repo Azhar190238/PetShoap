@@ -183,7 +183,7 @@ const router = createBrowserRouter([
         element: <Verified></Verified>,
       },
 
-      //find trainer
+    
       {
         path: "/findTrainer",
         element: <ManageMyAccount></ManageMyAccount>,
