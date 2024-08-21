@@ -114,9 +114,7 @@ const Header = () => {
         <Link to='/register'><a className="btn rounded-3xl text-[#C9C3C1] flex items-center">
           <img className='mr-2' src="/src/assets/image/NavIcon/user.png" alt="User" /> <span className='hidden sm:inline'>Login/Register</span>
         </a></Link>
-        {/* <a className="btn rounded-3xl bg-[#FF5C2C] text-white font-bold  items-center hidden  sm:flex">
-          <img className='mr-2' src="/src/assets/image/NavIcon/Utube.png" alt="How it Works" /> How It Works
-        </a> */}
+  
         <a className=" p-3 rounded-3xl bg-[#FF5C2C] text-white font-bold  items-center hidden  sm:flex">
           <img className='mr-2' src="/src/assets/image/NavIcon/Utube.png    " alt="How it Works" />
           <div className="dropdown dropdown-end">
