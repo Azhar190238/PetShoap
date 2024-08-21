@@ -28,7 +28,6 @@ import Payment2 from './Components/Payment/Payment2.jsx';
 import Payment from './Components/Payment/Payment.jsx';
 import Contact from './Components/Contact/Contact.jsx';
 import Review from './Components/Review/Review.jsx';
-import SingleShop from './Components/singleShop/singleShop.jsx';
 import MyAccount1 from './Components/Authentication/MyAccount/MyAccount1.jsx';
 import SignIn from './Components/Authentication/MyAccount/SignIn.jsx';
 import ForgetPassword from './Components/Authentication/MyAccount/ForgetPassword.jsx';
@@ -58,6 +57,7 @@ import OverView2 from './Components/DashboardPuppys/OverView2.jsx';
 import OverView3 from './Components/DashboardPuppys/OverView3.jsx';
 import OverView4 from './Components/DashboardPuppys/OverView4.jsx';
 import OverView5 from './Components/DashboardPuppys/OverView5.jsx';
+import SingleShop from './Components/singleShop/SingleShop.jsx';
 // import FindPuppy1 from './Components/DashboardPuppys/FindPuppy1.jsx';
 const router = createBrowserRouter([
   {
