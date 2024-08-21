@@ -124,7 +124,7 @@ const Card = () => {
                 </div>
              <div className='grid grid-cols-1 md:grid-cols-2 gap-6 '>
                 
-             {/* <div> */}
+          
              <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                     <figure className='relative'>
                         <img src="/src/assets/image/Card/1.png" className='w-[400px] h-[260px]'/>
