@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom";
 
-// import { Link, NavLink } from 'react-router-dom';
 const ServiceCard = () => {
     const navigate = useNavigate();
     return (
