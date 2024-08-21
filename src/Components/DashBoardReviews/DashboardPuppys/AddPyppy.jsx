@@ -183,7 +183,7 @@ const AddPuppy = () => {
                                 width={500}
                                 className='!h-[30px] !w-[30px]'
                               
-                                //     display: 'none',
+                            
                                 // }}
                                 preview={{
                                     visible: previewOpen,
