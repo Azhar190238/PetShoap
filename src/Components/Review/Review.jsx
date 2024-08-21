@@ -36,7 +36,7 @@ const Review = () => {
                     <div className='col-span-1 md:col-span-2'>
 
                         <Swiper
-                            // style={{
+                           
                             //     '--swiper-navigation-color': '#fff',
                             //     '--swiper-pagination-color': '#fff',
                             // }}
