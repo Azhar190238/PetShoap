@@ -42,7 +42,7 @@ const MyCancelation = () => {
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        {/* row 1 */}
+                                        
                                         <tr>
                                             <th>6423135631463123</th>
                                             <td>12/10/23</td>
